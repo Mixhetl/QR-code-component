@@ -1,0 +1,2 @@
+# QR-code-component
+CODEMENTOR PRACTICE NO 1
