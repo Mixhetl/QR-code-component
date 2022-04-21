@@ -8,6 +8,7 @@
   --dark-blue: hsl(218, 44%, 22%);
 
   /* Font Sizes */
+  --fs-500: 1.5rem;
   --fs-400: 1.125rem;
   --fs-300: 1rem;
 }
@@ -82,6 +83,7 @@ body {
 .img {
     max-width: 90%;
     border-radius: 10px;
+    margin-bottom: 20px
 }
 
 .hero {
@@ -92,6 +94,11 @@ body {
 
 .paragraph {
   text-align: center;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  font-size: 15px;
+  font-weight: lighter;
+  color: var(--grayish-blue);
+  text-shadow: 2px;
 }
 
 .attribution {
@@ -102,4 +109,8 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (widht: 375px){
+  
 }
