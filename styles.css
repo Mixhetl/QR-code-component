@@ -49,3 +49,17 @@ body {
   color: var(--grayish-blue);
   font-weight: 400;
 }
+
+/**Footer**/
+.attribution {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 30px;
+  color: var(--dark-blue);
+}
+
+.attribution > a {
+  text-decoration: none;
+  color: var(--dark-blue);
+}
