@@ -23,26 +23,32 @@ body {
   font-family: var(--main);
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}  
+
 /**Main Styles**/
 .card {
-  width: 300px;
-  height: 500px;
+  width: 325px;
+  height: 475px;
   padding: 15px;
   background-color: var(--white);
   border-radius: 15px;
-  margin: 100px auto 100px;
   text-align: center;
 }
 
 .img {
-  width: 100%;
+  width: 95%;
   border-radius: 15px ;
 }
 
 .title {
   color: var(--dark-blue);
   font-size: 1.3rem;
-  margin: 20px auto 20px;
+  margin: 20px;
 }
 
 .paragraph {
